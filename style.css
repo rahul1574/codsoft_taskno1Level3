@@ -1,0 +1,85 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: #adb5bd;
+}
+.head{
+    color: white;
+    margin-top: 10px;
+}
+.calbox{
+   background-color: #4e565d;
+   height: 650px;
+   width:400px;
+   margin-top: 40px;
+   border-radius: 20px;
+}
+.display{
+    height:50px;
+    width:340px;
+    background-color: white;
+    margin-left: 40px;
+}
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.box{
+    height: 90px;
+    width:90px;
+    margin: 2px;
+    border-radius: 50%;
+    font-size: large;
+}
+.symbol{
+    height: 90px;
+    width:90px;
+    margin: 2px;
+    border-radius: 50%;
+    font-size: large;
+}
+.cal{
+    height: 90px;
+    width:90px;
+    margin: 2px;
+    border-radius: 50%;
+    font-size: large;
+    background-color: orange;
+}
+input{
+    height: 50px;
+    width: 350px;
+    font-size: 40px;
+    margin-top: 30px;
+}
+.box:hover{
+    background-color: blue;
+    color: white;
+    border: none;
+}
+.box:active{
+    background-color:black ;
+}
+.symbol:hover{
+    background-color:green;
+    color: white;
+    border: none;
+}
+.symbol:active{
+    background-color:black ;
+}
+.cal:hover{
+    color: white;
+    border: none;
+}
+.cal:active{
+    background-color:black ;
+}
